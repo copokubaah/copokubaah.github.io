@@ -174,8 +174,8 @@ header {
                 margin: 30px auto;
             }
             p {
-                font-weight: 300;
-                color: rgba(white, .7);
+                font-weight: 500;
+                color: rgba(rgb(222, 224, 230), .7);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
@@ -207,9 +207,45 @@ header {
 
 // Sections
 
+.bg-primary{
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: fit-content;
+        height: auto;
+      }
+
+    img{
+        width: 30%;
+        height: auto;
+        border: 5px solid #f5f3f3;
+        position:relative;
+        left: 100px;
+    }
+
+    .section-heading {
+        margin-top: 0;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .text-faded{
+        font-size: 15px;
+        text-align: left;
+    }
+
+}
+
 .section-heading {
     margin-top: 0;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
 }
+
+
 
 .service-box {
     max-width: 400px;
@@ -256,6 +292,7 @@ header {
             }
             .project-name {
                 font-size: 18px;
+                color: blue;
             }
         }
     }
@@ -279,10 +316,13 @@ header {
 }
 
 .call-to-action {
+   
     h2 {
-        margin: 0 auto 20px;
+        margin: 0 auto 20px; 
     }
+    
 }
+
 
 // Bootstrap Overrides
 .text-primary {
